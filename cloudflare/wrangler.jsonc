@@ -1,0 +1,15 @@
+{
+  "name": "sykes-picot",
+  "account_id": "d1633341b0f0b7c9419f01dd3e0c4976",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-09-27",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [{"pattern": "sykespicot.io", "custom_domain": true}],
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "sykes-picot-league",
+    "database_id": "bd9a2a50-0258-4625-8c86-cc16f2e416b2",
+    "migrations_dir": "../drizzle"
+  }]
+}
